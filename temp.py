@@ -104,11 +104,28 @@ def somme(list):
 print (somme(listRandomImpaire))
 
 #Exercice 8
+deflist = [13, 23, 33, 43]
+
+# prend une list de int
+# retourne le plus grand int
+
 def max(list):
-    max = 0;
+    # intailize la variable max
+    max = 0 
+
+    # Recupere tout les int de la liste uns a uns
     for element in list:
+
+        # Si mon int (element) est suprieur a max
         if (element > max):
+
+            #Sauvegarde le int le plus grand dans la variable max
             max = element
+
+    # Renvoie max (l int le plus grand trouve dans la liste)        
     return max
-print (max)
+
+
+# Appel max
+max(list)
 
