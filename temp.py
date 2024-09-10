@@ -110,5 +110,5 @@ def max(list):
         if (element > max):
             max = element
     return max
-    
+print (max)
 
